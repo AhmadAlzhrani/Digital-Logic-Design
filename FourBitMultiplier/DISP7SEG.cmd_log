@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/COE/Desktop/exp07/exp7/DISP7SEG.v -lang verilog -prj exp7 -o DISP7SEG.spl -module DISP7SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DISP7SEG.spl C:/Users/COE/Desktop/exp07/exp7/DISP7SEG.sym 

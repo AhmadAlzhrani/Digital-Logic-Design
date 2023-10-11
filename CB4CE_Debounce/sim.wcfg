@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/xilix/exp6/task1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="task1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/task1/CE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task1/clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task1/CEO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CEO</obj_property>
+      <obj_property name="ObjectShortName">CEO</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus9" type="vbus" db_ref_id="1">
+      <obj_property name="label">Q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/task1/Q3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Q3</obj_property>
+         <obj_property name="ObjectShortName">Q3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/task1/Q2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Q2</obj_property>
+         <obj_property name="ObjectShortName">Q2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/task1/Q1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Q1</obj_property>
+         <obj_property name="ObjectShortName">Q1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/task1/Q0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Q0</obj_property>
+         <obj_property name="ObjectShortName">Q0</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

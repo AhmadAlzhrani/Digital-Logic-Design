@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/COE/Desktop/New folder/HA/HA_isim_beh.exe" -prj "C:/Users/COE/Desktop/New folder/HA/HA_beh.prj" "work.HA" "work.glbl" 

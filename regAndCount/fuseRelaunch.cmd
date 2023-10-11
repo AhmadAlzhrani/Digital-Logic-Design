@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/COE/Desktop/New folder/regAndCount/regAndCount_isim_beh.exe" -prj "C:/Users/COE/Desktop/New folder/regAndCount/regAndCount_beh.prj" "work.regAndCount" "work.glbl" 

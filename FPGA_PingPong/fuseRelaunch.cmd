@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/RoXeL.069/Desktop/project/upcounter_isim_beh.exe" -prj "C:/Users/RoXeL.069/Desktop/project/upcounter_beh.prj" "work.upcounter" "work.glbl" 

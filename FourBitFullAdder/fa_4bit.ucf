@@ -1,0 +1,18 @@
+
+
+NET "a3" LOC = T5;
+NET "a1" LOC = U8;
+NET "b2" LOC = V9;
+NET "b1" LOC = T9;
+NET "b0" LOC = T10;
+NET "Cout" LOC = T11;
+NET "s3" LOC = R11;
+NET "s0" LOC = V15;
+
+# PlanAhead Generated physical constraints 
+
+NET "a2" LOC = V8;
+NET "a0" LOC = N8;
+NET "b3" LOC = M8;
+NET "s2" LOC = N11;
+NET "s1" LOC = M11;

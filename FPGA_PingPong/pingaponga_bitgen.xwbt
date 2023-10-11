@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\COE\Desktop\proj\project\pingaponga.ncd
+OUTFILE=C:\Users\COE\Desktop\proj\project\pingaponga.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\COE\Desktop\proj\project
+LICENSE=WebPack
+USER_INFO=210828762_0_0_516

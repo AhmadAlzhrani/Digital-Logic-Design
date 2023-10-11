@@ -1,0 +1,4 @@
+
+
+NET "sysclk" LOC = V10;
+NET "pmod_pin" LOC = T12;

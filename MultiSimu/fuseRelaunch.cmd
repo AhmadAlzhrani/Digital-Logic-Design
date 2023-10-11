@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/RoXeL.069/Desktop/MultiSimu/MultiSim_isim_beh.exe" -prj "C:/Users/RoXeL.069/Desktop/MultiSimu/MultiSim_beh.prj" "work.MultiSim" "work.glbl" 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\COE\Desktop\11\exp11\reactionTimer.ncd
+OUTFILE=C:\Users\COE\Desktop\11\exp11\reactionTimer.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\COE\Desktop\11\exp11
+LICENSE=WebPack
+USER_INFO=210828762_0_0_516

@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Oct 04 14:12:47 2021
+# Process ID: 8576
+# Log file: C:/Users/Yoyo/Desktop/ALU/ALU/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Yoyo/Desktop/ALU/ALU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -2744 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Yoyo/Desktop/ALU/ALU/pa.fromNetlist.tcl
+# create_project -name ALU -dir "C:/Users/Yoyo/Desktop/ALU/ALU/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 372.070 ; gain = 32.242
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Yoyo/Desktop/ALU/ALU/ALU.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Yoyo/Desktop/ALU/ALU} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ALU.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Yoyo/Desktop/ALU/ALU/ALU.ucf' to fileset 'constrs_1'
+# add_files [list {ALU.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ALU.ngc ...
+WARNING:NetListWriters:298 - No output is written to ALU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mmux_Y3_rs_cy<3 : 1> on block ALU is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ALU.edif ...
+ngc2edif: Total memory usage is 79128 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/ALU.data/cache/ALU_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/ALU.data/cache/ALU_ngc_zx.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Yoyo/Desktop/ALU/ALU/ALU.ucf]
+Finished Parsing UCF File [C:/Users/Yoyo/Desktop/ALU/ALU/ALU.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 1e5b4f74
+link_design: Time (s): elapsed = 00:00:26 . Memory (MB): peak = 477.652 ; gain = 102.340
+startgroup
+set_property package_pin T5 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  S0]]
+startgroup
+set_property package_pin C4 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports S0]
+endgroup
+save_constraints
+startgroup
+set_property package_pin T11 [get_ports {Y[4]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {Y[3]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Y[2]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Y[1]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {Y[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Yoyo/Desktop/ALU/ALU\planAhead_pid8576.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Oct 04 14:27:28 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

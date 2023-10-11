@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\COE\Desktop\New folder\task1\task1.ncd
+OUTFILE=C:\Users\COE\Desktop\New folder\task1\task1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\COE\Desktop\New folder\task1
+LICENSE=WebPack
+USER_INFO=210828762_0_0_516

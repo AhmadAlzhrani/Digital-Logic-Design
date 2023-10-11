@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/xilix/exp4/fa_4bit_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fa_4bit" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="vbus18" type="vbus" db_ref_id="1">
+      <obj_property name="label">a</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/fa_4bit/a3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a3</obj_property>
+         <obj_property name="ObjectShortName">a3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/a2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a2</obj_property>
+         <obj_property name="ObjectShortName">a2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/a1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a1</obj_property>
+         <obj_property name="ObjectShortName">a1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/a0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a0</obj_property>
+         <obj_property name="ObjectShortName">a0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus19" type="vbus" db_ref_id="1">
+      <obj_property name="label">b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/fa_4bit/b3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b3</obj_property>
+         <obj_property name="ObjectShortName">b3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/b2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b2</obj_property>
+         <obj_property name="ObjectShortName">b2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/b1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b1</obj_property>
+         <obj_property name="ObjectShortName">b1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/b0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b0</obj_property>
+         <obj_property name="ObjectShortName">b0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus20" type="vbus" db_ref_id="1">
+      <obj_property name="label">s</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/fa_4bit/Cout" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Cout</obj_property>
+         <obj_property name="ObjectShortName">Cout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/s3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s3</obj_property>
+         <obj_property name="ObjectShortName">s3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/s2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s2</obj_property>
+         <obj_property name="ObjectShortName">s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/s1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s1</obj_property>
+         <obj_property name="ObjectShortName">s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fa_4bit/s0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s0</obj_property>
+         <obj_property name="ObjectShortName">s0</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

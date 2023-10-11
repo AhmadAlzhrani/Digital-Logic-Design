@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/COE/Desktop/exp8/task3/task3_isim_beh.exe" -prj "C:/Users/COE/Desktop/exp8/task3/task3_beh.prj" "work.task3" "work.glbl" 

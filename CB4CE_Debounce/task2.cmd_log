@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/xilix/exp6/task2.xst" -ofn "D:/xilix/exp6/task2.syr" 

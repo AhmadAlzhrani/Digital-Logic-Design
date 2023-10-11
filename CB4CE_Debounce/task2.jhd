@@ -1,0 +1,3 @@
+MODULE task2
+	SUBMODULE debounce
+		INSTANCE XLXI_2

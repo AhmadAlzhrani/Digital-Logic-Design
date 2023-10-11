@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/xilix/exp4/fa_4bit_isim_beh.exe" -prj "D:/xilix/exp4/fa_4bit_beh.prj" "work.fa_4bit" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/COE/Desktop/New folder/task1/task2_isim_beh.exe" -prj "C:/Users/COE/Desktop/New folder/task1/task2_beh.prj" "work.task2" "work.glbl" 
